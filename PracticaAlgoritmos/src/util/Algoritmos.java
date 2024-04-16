@@ -26,5 +26,23 @@ public abstract class Algoritmos {
 		return numFactorial;
 	}
 	
+	public static int fibonacci (int n) {
+
+        int num1=0;
+        int num2=1; 
+        int numFibonacci=0;
+        
+		for (int i=2; i<=n;i++) {
+                    
+			numFibonacci=num1+num2;
+                        
+                        num1=num2;
+                        num2=numFibonacci;
+			System.out.println(numFibonacci);
+                        
+                        
+		}
+		return numFibonacci;
+	}
 
 }

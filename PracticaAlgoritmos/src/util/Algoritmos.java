@@ -2,6 +2,11 @@ package util;
 
 public abstract class Algoritmos {
 	
+	/**
+	 * Devuelve si el numero introducido es primo o no
+	 * @param num el numero del cual queremos comprobar si es o no primo
+	 * @return falso en caso de que no sea primo y true en caso de que lo sea
+	 */
 	public static boolean esPrimo (int num) {
 		boolean result =true;
 		
@@ -18,6 +23,11 @@ public abstract class Algoritmos {
 		return result;
 	}
 	
+	/**
+	 * Devuelve el factorial de el numero n
+	 * @param n el numero del cual queremos calcular el factorial
+	 * @return el factorial de el numero n
+	 */
 	public static int factorial (int n) {
 		int numFactorial =1;
 		for (int i = 1; i <= n; i++) {
@@ -26,6 +36,11 @@ public abstract class Algoritmos {
 		return numFactorial;
 	}
 	
+	/**
+	 * Devuelve la sucesion fibonacci hasta la posicion n
+	 * @param n la posicion de la cual queremos saber el valor de la sucesion fibonacci
+	 * @return el valor de la posicion n en la sucesion fibonacci
+	 */
 	public static int fibonacci (int n) {
 
         int num1=0;

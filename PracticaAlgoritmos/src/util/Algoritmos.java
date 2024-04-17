@@ -13,10 +13,9 @@ public abstract class Algoritmos {
 		for (int i =2; i<num;i++) {
 			
 			
-			if ((i%num) ==0) {
+			if ((num%i) ==0) {
 				result= false;
-			}else {
-				result = true;
+				break;
 			}
 		}
 				
@@ -53,7 +52,6 @@ public abstract class Algoritmos {
                         
                         num1=num2;
                         num2=numFibonacci;
-			System.out.println(numFibonacci);
                         
                         
 		}

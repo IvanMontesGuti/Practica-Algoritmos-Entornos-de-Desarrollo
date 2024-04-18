@@ -16,6 +16,7 @@ public class Principal extends Algoritmos{
 		int n;
 		int v;
 		boolean x;
+	
 		
 		int numFactorial =0;
 		java.util.Random rm=new java.util.Random();
